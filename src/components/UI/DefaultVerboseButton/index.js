@@ -8,7 +8,9 @@ import { View, Pressable, Text, StyleSheet } from "react-native";
 export default function DefaultVerboseButton(props) {
   return (
     <View>
-      <Pressable style={[styles.btn, props.backgroundColor]}>
+      <Pressable
+        style={[styles.btn, { backgroundColor: props.backgroundColor }]}
+      >
         <Text style={styles.btnText}>{props.title}</Text>
       </Pressable>
     </View>

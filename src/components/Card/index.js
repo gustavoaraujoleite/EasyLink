@@ -1,5 +1,5 @@
 /**
- * COMPONENT RESPONSIBLE FOR HOLDING THE STRUCTURE OF THE CARD TO BE USED AS 
+ * COMPONENT RESPONSIBLE FOR HOLDING THE STRUCTURE OF THE CARD TO BE USED AS
  * BASE FOR THE MAIN CONTENTS
  */
 
@@ -22,9 +22,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     padding: 16,
     borderRadius: 16,
-    elevation: 2,
+    elevation: 4,
     shadowColor: "black",
-    shadowOffset: { width: 1, height: 1 },
+    shadowOffset: { width: 2, height: 2 },
     shadowOpacity: 0.3,
     shadowRadius: 2,
   },
