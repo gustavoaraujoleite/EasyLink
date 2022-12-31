@@ -1,7 +1,7 @@
 import { useFonts } from "expo-font";
 import { StyleSheet, Text, View } from "react-native";
 import Card from "./src/components/Card";
-import CardTitle from "./src/components/UI/CardTitle";
+import AddFolderIcon from "./src/components/UI/AddFolderIcon";
 export default function App() {
 
   const [fontsLoaded] = useFonts({
