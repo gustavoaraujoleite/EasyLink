@@ -1,6 +1,6 @@
 import { useFonts } from "expo-font";
 import { StyleSheet, Text, View } from "react-native";
-
+import Card from "./src/components/Card";
 export default function App() {
   const [fontsLoaded] = useFonts({
     "Poppins-Regular": require("./assets/fonts/Poppins-Regular.ttf"),
@@ -11,13 +11,17 @@ export default function App() {
     return null;
   }
 
-  return <View style={styles.container}></View>;
+  return (
+    <View style={styles.container}>
+      <Card></Card>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#FAFAFA",
     justifyContent: "center",
   },
 });

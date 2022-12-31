@@ -1,0 +1,29 @@
+import { View, StyleSheet } from "react-native";
+import { AntDesign } from "@expo/vector-icons";
+
+export default function Card(props) {
+  return (
+    <View style={styles.container}>
+      <View style={styles.closeIconContainer}>
+        <AntDesign name="close" size={20} color="#1c1c1c" />
+      </View>
+      {props.children}
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: "#fff",
+    padding: 16,
+    borderRadius: 16,
+    elevation: 2,
+    shadowColor: "black",
+    shadowOffset: { width: 1, height: 1 },
+    shadowOpacity: 0.3,
+    shadowRadius: 2,
+  },
+  closeIconContainer: {
+    alignItems: "flex-end",
+  },
+});
