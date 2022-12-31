@@ -1,3 +1,8 @@
+/**
+ * COMPONENT RESPONSIBLE FOR HOLDING THE STRUCTURE OF THE ACTION BUTTON
+ * (BUTTON THAT INCLUDES BACKGROUND COLOR FEATURE TO BE CHOSEN DYNAMICALLY)
+ */
+
 import { View, Pressable, Text, StyleSheet } from "react-native";
 
 export default function DefaultVerboseButton(props) {

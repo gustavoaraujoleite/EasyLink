@@ -1,3 +1,8 @@
+/**
+ * COMPONENT RESPONSIBLE FOR HOLDING THE STRUCTURE OF THE CARD TO BE USED AS 
+ * BASE FOR THE MAIN CONTENTS
+ */
+
 import { View, StyleSheet } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
 
