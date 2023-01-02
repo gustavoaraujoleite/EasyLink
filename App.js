@@ -1,7 +1,7 @@
 import { useFonts } from "expo-font";
 import { StyleSheet, Text, View } from "react-native";
-import Card from "./src/components/Card";
 import DeleteModal from "./src/components/Modals/DeleteModal";
+import RenameModal from "./src/components/Modals/RenameModal";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -18,7 +18,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <DeleteModal />
+
+      <RenameModal/>
     </View>
   );
 }
@@ -28,7 +29,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#FAFAFA",
     justifyContent: "center",
-    marginHorizontal: 16
+    marginHorizontal: 16,
   },
   btnText: {
     color: "red",

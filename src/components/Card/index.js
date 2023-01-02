@@ -30,5 +30,6 @@ const styles = StyleSheet.create({
   },
   closeIconContainer: {
     alignItems: "flex-end",
+    marginBottom: -16,
   },
 });

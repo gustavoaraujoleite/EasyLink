@@ -1,3 +1,7 @@
+/**
+ * COMPONENT RESPONSIBLE FOR RENDERING THE DELETE MODAL CONTENT
+ */
+
 import { StyleSheet, Text, View } from "react-native";
 import Card from "../../Card";
 import CardTitle from "../../UI/DefaultCardTitle";
@@ -32,7 +36,6 @@ export default function DeleteModal() {
 const styles = StyleSheet.create({
   cardTitleContainer: {
     alignItems: "center",
-    marginTop: -16,
     marginBottom: 24,
   },
   textContainer: {
