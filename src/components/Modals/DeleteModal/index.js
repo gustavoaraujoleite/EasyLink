@@ -3,10 +3,10 @@
  */
 
 import { StyleSheet, Text, View } from "react-native";
-import Card from "../../Card";
-import CardTitle from "../../UI/DefaultCardTitle";
-import DefaultVerboseButton from "../../UI/DefaultVerboseButton";
-import SecondaryInputButton from "../../UI/SecondaryInputButton";
+import DefaultVerboseButton from "../../UI/Buttons/DefaultVerboseButton";
+import SecondaryInputButton from "../../UI/Buttons/SecondaryInputButton";
+import Card from "../../UI/Card/CardModel";
+import CardTitle from "../../UI/Card/DefaultCardTitle";
 
 export default function DeleteModal() {
   return (

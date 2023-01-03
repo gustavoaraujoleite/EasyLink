@@ -3,10 +3,10 @@
  */
 
 import { StyleSheet, View } from "react-native";
-import Card from "../../Card";
-import CardTitle from "../../UI/DefaultCardTitle";
+import DefaultVerboseButton from "../../UI/Buttons/DefaultVerboseButton";
+import Card from "../../UI/Card/CardModel";
+import CardTitle from "../../UI/Card/DefaultCardTitle";
 import DefaultInput from "../../UI/DefaultTextInput";
-import DefaultVerboseButton from "../../UI/DefaultVerboseButton";
 
 export default function RenameModal() {
   return (
