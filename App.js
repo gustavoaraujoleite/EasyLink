@@ -1,8 +1,6 @@
 import { useFonts } from "expo-font";
 import { StyleSheet, Text, View } from "react-native";
-import DeleteModal from "./src/components/Modals/DeleteModal";
-import RenameModal from "./src/components/Modals/RenameModal";
-import ShareModal from "./src/components/Modals/ShareModal";
+import AddModal from "./src/components/Modals/AddModal";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -19,7 +17,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <ShareModal />
+      <AddModal />
     </View>
   );
 }

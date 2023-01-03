@@ -22,7 +22,7 @@ export default function ShareModal() {
         <DefaultInput placeholder="Email" />
       </View>
 
-      <DefaultVerboseButton backgroundColor={"#1268B3"} title="Concluir" />
+      <DefaultVerboseButton backgroundColor={"#1268B3"} title="Compartilhar" />
       <View style={styles.textContainer}>
         <Text style={styles.text}>ou</Text>
       </View>
