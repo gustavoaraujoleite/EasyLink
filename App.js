@@ -2,6 +2,8 @@ import { useFonts } from "expo-font";
 import { StyleSheet, Text, View } from "react-native";
 import AddModal from "./src/components/Modals/AddModal";
 import EditModal from "./src/components/Modals/EditModal";
+import NewFolder from "./src/components/Modals/NewFolder";
+import Login from "./src/pages/Login";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -18,7 +20,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <EditModal />
+      <Login />
     </View>
   );
 }
@@ -27,8 +29,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#FAFAFA",
-    justifyContent: "center",
-    marginHorizontal: 16,
+    // justifyContent: "center",
+    // marginHorizontal: 16,
   },
   btnText: {
     color: "red",

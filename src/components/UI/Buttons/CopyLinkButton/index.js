@@ -6,7 +6,7 @@ import { Pressable, StyleSheet, Text } from "react-native";
 
 export default function CopyLinkButton(props) {
   return (
-    <Pressable style={styles.container}>
+    <Pressable style={styles.container }>
       <Text style={styles.text}>{props.text}</Text>
     </Pressable>
   );
