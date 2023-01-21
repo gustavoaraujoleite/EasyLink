@@ -6,6 +6,8 @@ import SecondaryInputButton from "../../components/UI/Buttons/SecondaryInputButt
 import DefaultInput from "../../components/UI/DefaultTextInput";
 import googleLogo from "../../../assets/logos_google-icon.png";
 import AppleLogo from "../../../assets/ic_baseline-apple.png";
+
+
 export default function Login() {
   return (
     <SafeAreaView>

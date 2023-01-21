@@ -30,17 +30,15 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 1, height: 1 },
     shadowOpacity: 0.8,
     shadowRadius: 2,
-    marginVertical: 16
+    marginVertical: 16,
   },
   image: {
-    marginRight: 40
+    marginRight: 40,
   },
   text_container: {
     width: "100%",
     flexDirection: "row",
-    justifyContent: 'center'
-
-
+    justifyContent: "center",
   },
   btnText: {
     color: "#594D4D",

@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import AddModal from "./src/components/Modals/AddModal";
 import EditModal from "./src/components/Modals/EditModal";
 import NewFolder from "./src/components/Modals/NewFolder";
-import Login from "./src/pages/Login";
+import Registration from "./src/Pages/Registration";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Login />
+      <Registration />
     </View>
   );
 }
